@@ -21,7 +21,7 @@
 - **🌗 Dark / Light Mode**: Beautifully designed responsive themes powered by TailwindCSS.
 - **📊 Goal Seek Calculation**: Uses a robust binary search algorithm to calculate the exact Gross Salary required to hit a specific Net Salary target (in USD/EGP).
 - **📉 Visual Breakdown**: Interactive Pie Charts powered by Chart.js clearly illustrating Salary Breakdowns (Net, Income Tax, Social Insurance, Martyrs Fund, etc.).
-- **📄 PDF Export**: Generate clean and accurate PDF reports natively from the browser using `html2pdf.js`.
+- **📄 PDF Export**: Generate clean and accurate PDF reports natively from the browser using a hidden iframe print method — no popups, no third-party libraries.
 - **⚙️ Configurable Rules**: Handles different tax personas (Regular vs PWSN Employees), insurance statuses, and tax treatments (In-house vs. 10% Flat Rate).
 
 ## 🚀 Getting Started
@@ -36,21 +36,19 @@ Since this is a client-side only tool, getting started is extremely straightforw
    ```bash
    cd Iconic-Tech-GrossingUp
    ```
-3. Just double-click on `grossup-calculator.html` to open it in your browser! No local server or build tools required.
+3. Just open `index.html` in your browser! No local server or build tools required.
 
 ## 🛠️ Tech Stack
 
 - **HTML5 & Vanilla JavaScript**: Pure native performance with no framework overhead.
 - **TailwindCSS**: Utitlity-first CSS for rapid styling via CDN.
 - **Chart.js**: For rendering elegant salary breakdown pie charts.
-- **html2pdf.bundle.js**: Allowing seamless PDF generation.
+- **Native Browser Print**: PDF generation via hidden iframe — lightweight, no external dependencies.
 - **Phosphor Icons**: Beautiful, consistent iconography.
 
 ## 📷 Preview
 
-The calculator features a clean UI layout where inputs are on the left (or right in Arabic) and an intuitive real-time result table alongside a pie chart breakdown updates dynamically.
-
-*(Place some stunning screenshots here!)*
+The calculator features a clean UI layout where inputs are on the left (or right in Arabic) and an intuitive real-time result table alongside a pie chart breakdown that updates dynamically.
 
 ## 🤝 Collaboration
 
