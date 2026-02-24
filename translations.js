@@ -41,7 +41,13 @@ const translations = {
         footerText: "مدعوم من شركة Iconic Technology بالتعاون مع مؤسّسة Nassef and Partners International",
         emptyError: "انت عاوز تحسب الولا حاجه ولا ايه؟",
         emptyErrorDetails: "متنساش تدخل الصافي المستهدف وسعر الصرف! 😉",
-        emptyErrorBtn: "أوكيه.. خلاص هكتبهم"
+        emptyErrorBtn: "أوكيه.. خلاص هكتبهم",
+        invalidKey: "الرمز غير صحيح، حاول مرة أخرى! ❌",
+        invalidKeyBtn: "أجرب تاني 🔁",
+        securityTitle: "برجاء إدخال الرمز 🛡️",
+        securityDesc: "أهلاً بك! من فضلك أدخل الرمز لتتمكن من استخدام الحاسبة",
+        enterCode: "اكتب الرمز هنا...",
+        verifyBtn: "دخول"
     },
     en: {
         appTitle: "Grossing Up Calculator",
@@ -84,6 +90,12 @@ const translations = {
         footerText: "Powered by Iconic Technology Company with the Corporation of Nassef and Partners International",
         emptyError: "Are you trying to calculate nothing?",
         emptyErrorDetails: "Don't forget to enter the Target Net and Exchange Rate! 😉",
-        emptyErrorBtn: "Okay.. I'll type them"
+        emptyErrorBtn: "Okay.. I'll type them",
+        invalidKey: "Invalid code, try again! ❌",
+        invalidKeyBtn: "Try again 🔁",
+        securityTitle: "Please enter the code 🛡️",
+        securityDesc: "Welcome! Please enter the access code to use the calculator",
+        enterCode: "Type code here...",
+        verifyBtn: "Enter"
     }
 };
